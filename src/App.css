@@ -1,3 +1,9 @@
+div {
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 5px;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +45,35 @@
 
 .read-the-docs {
   color: #888;
+}
+
+#plan {
+  display: flex;
+  flex-direction: row;
+}
+
+#planLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#planRight {
+  display: flex;
+  flex-direction: column;
+}
+
+#planTR {
+  display: flex;
+  flex-direction: row;
+}
+
+#planBR {
+  display: flex;
+  flex-direction: row;
+}
+
+#kitchenCounter {
+  display: flex;
+  
 }
